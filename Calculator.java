@@ -24,6 +24,11 @@ public class Calc{
 
 			System.out.println(firstNumber*secondNumber);
 		}
+
+		else if(args[1].equalsIgnoreCase("divide")){
+		 System.out.println(Double.parseDouble(args[1])/Double.parseDouble(args[2]));
+
+		}
 	}
 }
 
